@@ -1,7 +1,16 @@
 package com.masai.Model;
 
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+
 public class Student {
+	
+	@Min(value = 100, message = "Minimum Roll number should be 100")
 	private Integer roll;
+	
+	@NotNull(message = "{roll.invalid}")
+	@Size(min = 3,max = 15,message = "{name.invalid}")
 	private String name;
 	private Address address;
 	private Integer marks;
