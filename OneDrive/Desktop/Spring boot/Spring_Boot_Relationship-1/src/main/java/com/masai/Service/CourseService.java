@@ -6,4 +6,6 @@ import com.masai.Model.Course;
 public interface CourseService {
 	
 	public Course registerCourse(Course course)throws CourseException;
+	
+	
 }

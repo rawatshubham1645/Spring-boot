@@ -22,7 +22,7 @@ public class Course {
 	private String courseName;
 	private Integer fee;
 	
-//	@JsonIgnore
+	@JsonIgnore
 	@ManyToMany(cascade = CascadeType.ALL,mappedBy = "courses")
 	private Set<Student> students = new HashSet<>();
 
