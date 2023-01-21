@@ -1,0 +1,81 @@
+Card Game I
+
+Description
+---------------------
+Ram and shyam are playing a game. They both have a few cards with some number written on them. In this game initially one player starts by putting one card. The next player then chooses one of his cards with a number higher than the one played by the other person on the previous move and so on. The
+
+If at any point any player is not able to play a card with a number higher than the one played by the other player in the previous move, they loose.
+
+Both players play optimally, you have to output the who wins the game is Ram plays first.
+
+
+Input
+-----------------------
+Input Format
+The first line contains the number of testcases t.
+
+Next 4*t lines we have the description of the t testcases.
+
+For each testcase there are 4 lines of input.
+
+The first line contains an integer n, the number of cards Ram has.
+
+The second line contains n integers, the numbers on the cards Ram has.
+
+The third line contains and integer m, the number of cards Shyam has.
+
+The fourth line contains m integers, the numbers on the cards Shyam has.
+
+
+
+
+Constraints
+1 <= t <=1000
+
+1 <= n,m <= 1000
+
+1 <= numbers on cards <= 1000
+
+
+Output
+Output Format
+For each testcase output who would win the game if both the players played optimally and Ram played the first move.
+
+
+Sample Input 1
+
+4
+1
+6
+2
+6 8
+4
+1 3 3 7
+2
+4 2
+1
+50
+2
+25 50
+10
+1 2 3 4 5 6 7 8 9 10
+2
+5 15
+
+
+Sample Output 1
+------------------------
+Shyam
+Ram
+Ram
+Shyam
+
+
+
+Hint
+----------------------------
+In the first testcase if Ram begins with 6 Shyam plays 8 leaving with Ram with no card left hence Shaym wins.
+
+In the second testcase If played optimally Ram wins the game.
+
+In the third testcase Ram begins with 50 and Shyam has no card with number greater than 50 on it hence Ram wins the game.

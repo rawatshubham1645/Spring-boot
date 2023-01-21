@@ -1,0 +1,47 @@
+leetcode link-https://leetcode.com/problems/set-matrix-zeroes/
+coding ninjas- https://www.codingninjas.com/codestudio/problems/set-matrix-zeros_3846774?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website&leftPanelTab=0
+
+
+Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.
+
+Problem Statement
+Detailed explanation ( Input/output format, Notes, Constraints, Images )
+Sample Input 1 :
+2
+2 3
+7 19 3
+4 21 0
+3 3
+1 2 3
+4 0 6
+7 8 9
+Sample Output 1 :
+7 19 0
+0 0 0
+1 0 3
+0 0 0
+7 0 9
+Explanation For Sample Input 1 :
+For First Case - Similar to the example explained above.
+
+For Second Case -
+Only the cell (2,2) has zero. So all the elements of the second row and second column are changed to zeros.
+Sample Input 2 :
+2
+4 2
+1 0
+2 7
+3 0
+4 8
+3 3
+0 2 3
+1 0 3
+1 2 0
+Sample Output 2 :
+0 0
+2 0
+0 0
+4 0
+0 0 0
+0 0 0
+0 0 0
